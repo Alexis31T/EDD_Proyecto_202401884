@@ -379,6 +379,21 @@ public:
     bool estaVacio() const {
         return raiz == nullptr;
     }
+
+    /**
+     * Recorrer el árbol y ejecutar una función para cada piloto
+     */
+    void recorrerInorden(NodoArbolBinario* nodo, void (*funcion)(const Piloto&)) {
+        if (nodo != nullptr) {
+            recorrerInorden(nodo->izquierdo, funcion);
+            funcion(nodo->piloto);
+            recorrerInorden(nodo->derecho, funcion);
+        }
+    }
+
+    void aplicarFuncion(void (*funcion)(const Piloto&)) {
+        recorrerInorden(raiz, funcion);
+    }
 };
 
 #endif

@@ -1,0 +1,402 @@
+[
+    {
+        "nombre": "Alexander Thompson",
+        "nacionalidad": "Estados Unidos",
+        "numero_de_id": "A10000001",
+        "vuelo": "V1000",
+        "horas_de_vuelo": 4500,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Sofia Rodriguez",
+        "nacionalidad": "España",
+        "numero_de_id": "B20000002",
+        "vuelo": "V1001",
+        "horas_de_vuelo": 3200,
+        "tipo_de_licencia": "CPL"
+    },
+    {
+        "nombre": "Muhammad Ali",
+        "nacionalidad": "Arabia Saudita",
+        "numero_de_id": "C30000003",
+        "vuelo": "V1002",
+        "horas_de_vuelo": 2800,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Emma Watson",
+        "nacionalidad": "Reino Unido",
+        "numero_de_id": "D40000004",
+        "vuelo": "V1003",
+        "horas_de_vuelo": 5100,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Hiroshi Tanaka",
+        "nacionalidad": "Japón",
+        "numero_de_id": "E50000005",
+        "vuelo": "V1004",
+        "horas_de_vuelo": 3900,
+        "tipo_de_licencia": "CPL"
+    },
+    {
+        "nombre": "Isabella Ferrari",
+        "nacionalidad": "Italia",
+        "numero_de_id": "F60000006",
+        "vuelo": "V1005",
+        "horas_de_vuelo": 4200,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Pierre Dubois",
+        "nacionalidad": "Francia",
+        "numero_de_id": "G70000007",
+        "vuelo": "V1006",
+        "horas_de_vuelo": 2500,
+        "tipo_de_licencia": "CPL"
+    },
+    {
+        "nombre": "Ana Silva",
+        "nacionalidad": "Brasil",
+        "numero_de_id": "H80000008",
+        "vuelo": "V1007",
+        "horas_de_vuelo": 3600,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Vladimir Petrov",
+        "nacionalidad": "Rusia",
+        "numero_de_id": "I90000009",
+        "vuelo": "V1008",
+        "horas_de_vuelo": 4800,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Mei Chen",
+        "nacionalidad": "China",
+        "numero_de_id": "J01000010",
+        "vuelo": "V1009",
+        "horas_de_vuelo": 3300,
+        "tipo_de_licencia": "CPL"
+    },
+    {
+        "nombre": "Lars Andersen",
+        "nacionalidad": "Dinamarca",
+        "numero_de_id": "K02000011",
+        "vuelo": "V1010",
+        "horas_de_vuelo": 2900,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Fatima Al-Hassan",
+        "nacionalidad": "Emiratos Árabes",
+        "numero_de_id": "L03000012",
+        "vuelo": "V1011",
+        "horas_de_vuelo": 3700,
+        "tipo_de_licencia": "CPL"
+    },
+    {
+        "nombre": "Diego Martinez",
+        "nacionalidad": "México",
+        "numero_de_id": "M04000013",
+        "vuelo": "V1012",
+        "horas_de_vuelo": 4100,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Yuki Yamamoto",
+        "nacionalidad": "Japón",
+        "numero_de_id": "N05000014",
+        "vuelo": "V1013",
+        "horas_de_vuelo": 2700,
+        "tipo_de_licencia": "CPL"
+    },
+    {
+        "nombre": "Olivia Johnson",
+        "nacionalidad": "Canadá",
+        "numero_de_id": "O06000015",
+        "vuelo": "V1014",
+        "horas_de_vuelo": 4600,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Ahmed Hassan",
+        "nacionalidad": "Egipto",
+        "numero_de_id": "P07000016",
+        "vuelo": "V1015",
+        "horas_de_vuelo": 3400,
+        "tipo_de_licencia": "CPL"
+    },
+    {
+        "nombre": "Maria Kowalski",
+        "nacionalidad": "Polonia",
+        "numero_de_id": "Q08000017",
+        "vuelo": "V1016",
+        "horas_de_vuelo": 2600,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Lucas Santos",
+        "nacionalidad": "Portugal",
+        "numero_de_id": "R09000018",
+        "vuelo": "V1017",
+        "horas_de_vuelo": 5200,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Kim Min-jun",
+        "nacionalidad": "Corea del Sur",
+        "numero_de_id": "S10000019",
+        "vuelo": "V1018",
+        "horas_de_vuelo": 3800,
+        "tipo_de_licencia": "CPL"
+    },
+    {
+        "nombre": "Elena Volkov",
+        "nacionalidad": "Ucrania",
+        "numero_de_id": "T11000020",
+        "vuelo": "V1019",
+        "horas_de_vuelo": 4300,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Carlos Ramirez",
+        "nacionalidad": "Colombia",
+        "numero_de_id": "U12000021",
+        "vuelo": "V1020",
+        "horas_de_vuelo": 2400,
+        "tipo_de_licencia": "CPL"
+    },
+    {
+        "nombre": "Hannah Schmidt",
+        "nacionalidad": "Alemania",
+        "numero_de_id": "V13000022",
+        "vuelo": "V1021",
+        "horas_de_vuelo": 4900,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Raj Patel",
+        "nacionalidad": "India",
+        "numero_de_id": "W14000023",
+        "vuelo": "V1022",
+        "horas_de_vuelo": 3500,
+        "tipo_de_licencia": "CPL"
+    },
+    {
+        "nombre": "Nina Johansson",
+        "nacionalidad": "Suecia",
+        "numero_de_id": "X15000024",
+        "vuelo": "V1023",
+        "horas_de_vuelo": 4700,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Antonio Costa",
+        "nacionalidad": "Portugal",
+        "numero_de_id": "Y16000025",
+        "vuelo": "V1024",
+        "horas_de_vuelo": 3100,
+        "tipo_de_licencia": "CPL"
+    },
+    {
+        "nombre": "Sarah O'Connor",
+        "nacionalidad": "Irlanda",
+        "numero_de_id": "Z17000026",
+        "vuelo": "V1025",
+        "horas_de_vuelo": 2300,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Viktor Nagy",
+        "nacionalidad": "Hungría",
+        "numero_de_id": "A18000027",
+        "vuelo": "V1026",
+        "horas_de_vuelo": 5300,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Leila Mahmoud",
+        "nacionalidad": "Líbano",
+        "numero_de_id": "B19000028",
+        "vuelo": "V1027",
+        "horas_de_vuelo": 4000,
+        "tipo_de_licencia": "CPL"
+    },
+    {
+        "nombre": "Marco Bianchi",
+        "nacionalidad": "Italia",
+        "numero_de_id": "C20000029",
+        "vuelo": "V1028",
+        "horas_de_vuelo": 2200,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Natasha Ivanova",
+        "nacionalidad": "Rusia",
+        "numero_de_id": "D21000030",
+        "vuelo": "V1029",
+        "horas_de_vuelo": 4400,
+        "tipo_de_licencia": "CPL"
+    },
+    {
+        "nombre": "James Anderson",
+        "nacionalidad": "Australia",
+        "numero_de_id": "E22000031",
+        "vuelo": "V1030",
+        "horas_de_vuelo": 3000,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Camila Gonzalez",
+        "nacionalidad": "Argentina",
+        "numero_de_id": "F23000032",
+        "vuelo": "V1031",
+        "horas_de_vuelo": 5000,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Andreas Müller",
+        "nacionalidad": "Alemania",
+        "numero_de_id": "G24000033",
+        "vuelo": "V1032",
+        "horas_de_vuelo": 3600,
+        "tipo_de_licencia": "CPL"
+    },
+    {
+        "nombre": "Priya Sharma",
+        "nacionalidad": "India",
+        "numero_de_id": "H25000034",
+        "vuelo": "V1033",
+        "horas_de_vuelo": 2100,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Erik Larsson",
+        "nacionalidad": "Noruega",
+        "numero_de_id": "I26000035",
+        "vuelo": "V1034",
+        "horas_de_vuelo": 4500,
+        "tipo_de_licencia": "CPL"
+    },
+    {
+        "nombre": "Gabriela Silva",
+        "nacionalidad": "Brasil",
+        "numero_de_id": "J27000036",
+        "vuelo": "V1035",
+        "horas_de_vuelo": 3200,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Dmitri Sokolov",
+        "nacionalidad": "Rusia",
+        "numero_de_id": "K28000037",
+        "vuelo": "V1036",
+        "horas_de_vuelo": 2800,
+        "tipo_de_licencia": "CPL"
+    },
+    {
+        "nombre": "Charlotte Brown",
+        "nacionalidad": "Reino Unido",
+        "numero_de_id": "L29000038",
+        "vuelo": "V1037",
+        "horas_de_vuelo": 5100,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Hassan Abdullah",
+        "nacionalidad": "Arabia Saudita",
+        "numero_de_id": "M30000039",
+        "vuelo": "V1038",
+        "horas_de_vuelo": 3900,
+        "tipo_de_licencia": "CPL"
+    },
+    {
+        "nombre": "Julia Kowalczyk",
+        "nacionalidad": "Polonia",
+        "numero_de_id": "N31000040",
+        "vuelo": "V1039",
+        "horas_de_vuelo": 4200,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Mateo Fernandez",
+        "nacionalidad": "España",
+        "numero_de_id": "O32000041",
+        "vuelo": "V1040",
+        "horas_de_vuelo": 2500,
+        "tipo_de_licencia": "CPL"
+    },
+    {
+        "nombre": "Yuki Sato",
+        "nacionalidad": "Japón",
+        "numero_de_id": "P33000042",
+        "vuelo": "V1041",
+        "horas_de_vuelo": 3600,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Ivan Petrov",
+        "nacionalidad": "Bulgaria",
+        "numero_de_id": "Q34000043",
+        "vuelo": "V1042",
+        "horas_de_vuelo": 4800,
+        "tipo_de_licencia": "CPL"
+    },
+    {
+        "nombre": "Amelia Wilson",
+        "nacionalidad": "Nueva Zelanda",
+        "numero_de_id": "R35000044",
+        "vuelo": "V1043",
+        "horas_de_vuelo": 3300,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Frederik Hansen",
+        "nacionalidad": "Dinamarca",
+        "numero_de_id": "S36000045",
+        "vuelo": "V1044",
+        "horas_de_vuelo": 2900,
+        "tipo_de_licencia": "CPL"
+    },
+    {
+        "nombre": "Aisha Rahman",
+        "nacionalidad": "Bangladesh",
+        "numero_de_id": "T37000046",
+        "vuelo": "V1045",
+        "horas_de_vuelo": 3700,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Roberto Rossi",
+        "nacionalidad": "Italia",
+        "numero_de_id": "U38000047",
+        "vuelo": "V1046",
+        "horas_de_vuelo": 4100,
+        "tipo_de_licencia": "CPL"
+    },
+    {
+        "nombre": "Chen Li",
+        "nacionalidad": "China",
+        "numero_de_id": "V39000048",
+        "vuelo": "V1047",
+        "horas_de_vuelo": 2700,
+        "tipo_de_licencia": "ATPL"
+    },
+    {
+        "nombre": "Sophie Martin",
+        "nacionalidad": "Francia",
+        "numero_de_id": "W40000049",
+        "vuelo": "V1048",
+        "horas_de_vuelo": 4600,
+        "tipo_de_licencia": "CPL"
+    },
+    {
+        "nombre": "Omar Khalil",
+        "nacionalidad": "Egipto",
+        "numero_de_id": "X41000050",
+        "vuelo": "V1049",
+        "horas_de_vuelo": 3400,
+        "tipo_de_licencia": "ATPL"
+    }
+]

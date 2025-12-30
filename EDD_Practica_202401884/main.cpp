@@ -34,6 +34,21 @@ TablaHash tablaPilotos;                     // Tabla Hash M=19 para búsqueda r�
 Grafo grafoRutas;                           // Grafo dirigido de rutas entre ciudades
 MatrizDispersa matrizAsignaciones;          // Matriz dispersa piloto-vuelo-ciudad
 
+// Estructura auxiliar para inserción en matriz
+struct InsertadorMatriz {
+    static MatrizDispersa* matriz;
+    static void insertar(const Piloto& p) {
+        static const char* ciudades[] = {"Madrid", "Barcelona", "Valencia", "Sevilla", 
+                                        "Bilbao", "Zaragoza", "Granada", "Murcia", 
+                                        "Córdoba", "Girona", "Málaga", "Alicante"};
+        static int indice = 0;
+        const char* ciudad = ciudades[indice % 12];
+        indice++;
+        matriz->insertar(ciudad, p.vuelo, p.nombre);
+    }
+};
+MatrizDispersa* InsertadorMatriz::matriz = nullptr;
+
 /**
  * Muestra el menú principal del sistema con todas las opciones disponibles
  */
@@ -391,13 +406,15 @@ void cargarPilotos() {
         return;
     }
     
-    // Leer todo el contenido
-    char contenido[8192];
-    char buffer[512];
+    // Leer todo el contenido con buffer más grande
+    char* contenido = new char[65536];  // 64KB para archivos grandes
+    char buffer[1024];
     contenido[0] = '\0';
     
-    while (archivo.getline(buffer, 512)) {
-        strcat(contenido, buffer);
+    while (archivo.getline(buffer, 1024)) {
+        if (strlen(contenido) + strlen(buffer) < 65535) {
+            strcat(contenido, buffer);
+        }
     }
     archivo.close();
     
@@ -504,6 +521,7 @@ void cargarPilotos() {
         inicio = fin + 1;
     }
     
+    delete[] contenido;  // Liberar memoria
     cout << contador << " pilotos cargados exitosamente." << endl;
 }
 
@@ -709,23 +727,13 @@ void generarReportesAvanzados() {
     grafoRutas.generarReporteGraphviz("reportes/grafo_rutas.dot");
     Graphviz::generarImagen("reportes/grafo_rutas.dot", "reportes/grafo_rutas.png");
     
-    // Matriz dispersa con asignaciones de ejemplo
-    matrizAsignaciones.insertar("Madrid", "V714", "Jane Smith");
-    matrizAsignaciones.insertar("Barcelona", "V713", "Marta Rodríguez");
-    matrizAsignaciones.insertar("Sevilla", "V712", "Carlos García");
-    matrizAsignaciones.insertar("Valencia", "V711", "Aisha Ahmed");
-    matrizAsignaciones.insertar("Bilbao", "V710", "Miguel Pereira");
-    matrizAsignaciones.insertar("Zaragoza", "V709", "Isabella Santos");
-    matrizAsignaciones.insertar("Granada", "V708", "Olga Ivanova");
-    matrizAsignaciones.insertar("Murcia", "V707", "Jürgen Schmidt");
-    matrizAsignaciones.insertar("Córdoba", "V706", "Chen Wei");
-    matrizAsignaciones.insertar("Girona", "V705", "Hans Müller");
-    matrizAsignaciones.insertar("Madrid", "V704", "Priya Sharma");
-    matrizAsignaciones.insertar("Barcelona", "V703", "Luca Rossi");
-    matrizAsignaciones.insertar("Sevilla", "V702", "Emily Brown");
-    matrizAsignaciones.insertar("Valencia", "V701", "Fatima Al-Sayed");
-    matrizAsignaciones.insertar("Bilbao", "V700", "Thabo Ndlovu");
-    matrizAsignaciones.insertar("Murcia", "V715", "John Doe");
+    // Matriz dispersa: resetear y llenar con los pilotos cargados actualmente
+    matrizAsignaciones = MatrizDispersa();  // Limpiar matriz anterior
+    InsertadorMatriz::matriz = &matrizAsignaciones;
+    
+    if (!arbolPilotos.estaVacio()) {
+        arbolPilotos.aplicarFuncion(InsertadorMatriz::insertar);
+    }
     
     matrizAsignaciones.generarReporteGraphviz("reportes/matriz_asignaciones.dot");
     Graphviz::generarImagen("reportes/matriz_asignaciones.dot", "reportes/matriz_asignaciones.png");

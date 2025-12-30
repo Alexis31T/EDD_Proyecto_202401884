@@ -3,8 +3,5 @@ digraph G {
     node [shape=record];
     label="Aviones en Mantenimiento";
     labelloc=t;
-    nodo0 [label="{Registro: N70000\nModelo: Boeing 737\nEstado: Mantenimiento}"];
-    nodo1 [label="{Registro: N70014\nModelo: Boeing 787\nEstado: Mantenimiento}"];
-    nodo0 -> nodo1 [dir=both];
-    nodo1 -> nodo0 [dir=both];
+    vacio [label="Lista Vacia"];
 }

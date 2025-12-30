@@ -1,0 +1,461 @@
+[
+    {
+        "vuelo": "V1000",
+        "numero_de_registro": "N10000",
+        "modelo": "Boeing 737",
+        "capacidad": 180,
+        "aerolinea": "SkyAir",
+        "ciudad_destino": "Madrid",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1001",
+        "numero_de_registro": "N10001",
+        "modelo": "Airbus A320",
+        "capacidad": 150,
+        "aerolinea": "AeroPlus",
+        "ciudad_destino": "Barcelona",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1002",
+        "numero_de_registro": "N10002",
+        "modelo": "Boeing 787",
+        "capacidad": 242,
+        "aerolinea": "GlobalWings",
+        "ciudad_destino": "Valencia",
+        "estado": "Mantenimiento"
+    },
+    {
+        "vuelo": "V1003",
+        "numero_de_registro": "N10003",
+        "modelo": "Boeing 777",
+        "capacidad": 396,
+        "aerolinea": "SkyAir",
+        "ciudad_destino": "Sevilla",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1004",
+        "numero_de_registro": "N10004",
+        "modelo": "Airbus A380",
+        "capacidad": 853,
+        "aerolinea": "MegaJet",
+        "ciudad_destino": "Bilbao",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1005",
+        "numero_de_registro": "N10005",
+        "modelo": "Boeing 737",
+        "capacidad": 180,
+        "aerolinea": "AeroPlus",
+        "ciudad_destino": "Zaragoza",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1006",
+        "numero_de_registro": "N10006",
+        "modelo": "Airbus A320",
+        "capacidad": 150,
+        "aerolinea": "SkyAir",
+        "ciudad_destino": "Granada",
+        "estado": "Mantenimiento"
+    },
+    {
+        "vuelo": "V1007",
+        "numero_de_registro": "N10007",
+        "modelo": "Boeing 787",
+        "capacidad": 242,
+        "aerolinea": "GlobalWings",
+        "ciudad_destino": "Murcia",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1008",
+        "numero_de_registro": "N10008",
+        "modelo": "Boeing 777",
+        "capacidad": 396,
+        "aerolinea": "MegaJet",
+        "ciudad_destino": "Córdoba",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1009",
+        "numero_de_registro": "N10009",
+        "modelo": "Airbus A380",
+        "capacidad": 853,
+        "aerolinea": "AeroPlus",
+        "ciudad_destino": "Girona",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1010",
+        "numero_de_registro": "N10010",
+        "modelo": "Boeing 737",
+        "capacidad": 180,
+        "aerolinea": "SkyAir",
+        "ciudad_destino": "Madrid",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1011",
+        "numero_de_registro": "N10011",
+        "modelo": "Airbus A320",
+        "capacidad": 150,
+        "aerolinea": "GlobalWings",
+        "ciudad_destino": "Barcelona",
+        "estado": "Mantenimiento"
+    },
+    {
+        "vuelo": "V1012",
+        "numero_de_registro": "N10012",
+        "modelo": "Boeing 787",
+        "capacidad": 242,
+        "aerolinea": "MegaJet",
+        "ciudad_destino": "Valencia",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1013",
+        "numero_de_registro": "N10013",
+        "modelo": "Boeing 777",
+        "capacidad": 396,
+        "aerolinea": "AeroPlus",
+        "ciudad_destino": "Sevilla",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1014",
+        "numero_de_registro": "N10014",
+        "modelo": "Airbus A380",
+        "capacidad": 853,
+        "aerolinea": "SkyAir",
+        "ciudad_destino": "Bilbao",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1015",
+        "numero_de_registro": "N10015",
+        "modelo": "Boeing 737",
+        "capacidad": 180,
+        "aerolinea": "GlobalWings",
+        "ciudad_destino": "Zaragoza",
+        "estado": "Mantenimiento"
+    },
+    {
+        "vuelo": "V1016",
+        "numero_de_registro": "N10016",
+        "modelo": "Airbus A320",
+        "capacidad": 150,
+        "aerolinea": "MegaJet",
+        "ciudad_destino": "Granada",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1017",
+        "numero_de_registro": "N10017",
+        "modelo": "Boeing 787",
+        "capacidad": 242,
+        "aerolinea": "AeroPlus",
+        "ciudad_destino": "Murcia",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1018",
+        "numero_de_registro": "N10018",
+        "modelo": "Boeing 777",
+        "capacidad": 396,
+        "aerolinea": "SkyAir",
+        "ciudad_destino": "Córdoba",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1019",
+        "numero_de_registro": "N10019",
+        "modelo": "Airbus A380",
+        "capacidad": 853,
+        "aerolinea": "GlobalWings",
+        "ciudad_destino": "Girona",
+        "estado": "Mantenimiento"
+    },
+    {
+        "vuelo": "V1020",
+        "numero_de_registro": "N10020",
+        "modelo": "Boeing 737",
+        "capacidad": 180,
+        "aerolinea": "MegaJet",
+        "ciudad_destino": "Madrid",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1021",
+        "numero_de_registro": "N10021",
+        "modelo": "Airbus A320",
+        "capacidad": 150,
+        "aerolinea": "AeroPlus",
+        "ciudad_destino": "Barcelona",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1022",
+        "numero_de_registro": "N10022",
+        "modelo": "Boeing 787",
+        "capacidad": 242,
+        "aerolinea": "SkyAir",
+        "ciudad_destino": "Valencia",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1023",
+        "numero_de_registro": "N10023",
+        "modelo": "Boeing 777",
+        "capacidad": 396,
+        "aerolinea": "GlobalWings",
+        "ciudad_destino": "Sevilla",
+        "estado": "Mantenimiento"
+    },
+    {
+        "vuelo": "V1024",
+        "numero_de_registro": "N10024",
+        "modelo": "Airbus A380",
+        "capacidad": 853,
+        "aerolinea": "MegaJet",
+        "ciudad_destino": "Bilbao",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1025",
+        "numero_de_registro": "N10025",
+        "modelo": "Boeing 737",
+        "capacidad": 180,
+        "aerolinea": "AeroPlus",
+        "ciudad_destino": "Zaragoza",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1026",
+        "numero_de_registro": "N10026",
+        "modelo": "Airbus A320",
+        "capacidad": 150,
+        "aerolinea": "SkyAir",
+        "ciudad_destino": "Granada",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1027",
+        "numero_de_registro": "N10027",
+        "modelo": "Boeing 787",
+        "capacidad": 242,
+        "aerolinea": "GlobalWings",
+        "ciudad_destino": "Murcia",
+        "estado": "Mantenimiento"
+    },
+    {
+        "vuelo": "V1028",
+        "numero_de_registro": "N10028",
+        "modelo": "Boeing 777",
+        "capacidad": 396,
+        "aerolinea": "MegaJet",
+        "ciudad_destino": "Córdoba",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1029",
+        "numero_de_registro": "N10029",
+        "modelo": "Airbus A380",
+        "capacidad": 853,
+        "aerolinea": "AeroPlus",
+        "ciudad_destino": "Girona",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1030",
+        "numero_de_registro": "N10030",
+        "modelo": "Boeing 737",
+        "capacidad": 180,
+        "aerolinea": "SkyAir",
+        "ciudad_destino": "Madrid",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1031",
+        "numero_de_registro": "N10031",
+        "modelo": "Airbus A320",
+        "capacidad": 150,
+        "aerolinea": "GlobalWings",
+        "ciudad_destino": "Barcelona",
+        "estado": "Mantenimiento"
+    },
+    {
+        "vuelo": "V1032",
+        "numero_de_registro": "N10032",
+        "modelo": "Boeing 787",
+        "capacidad": 242,
+        "aerolinea": "MegaJet",
+        "ciudad_destino": "Valencia",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1033",
+        "numero_de_registro": "N10033",
+        "modelo": "Boeing 777",
+        "capacidad": 396,
+        "aerolinea": "AeroPlus",
+        "ciudad_destino": "Sevilla",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1034",
+        "numero_de_registro": "N10034",
+        "modelo": "Airbus A380",
+        "capacidad": 853,
+        "aerolinea": "SkyAir",
+        "ciudad_destino": "Bilbao",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1035",
+        "numero_de_registro": "N10035",
+        "modelo": "Boeing 737",
+        "capacidad": 180,
+        "aerolinea": "GlobalWings",
+        "ciudad_destino": "Zaragoza",
+        "estado": "Mantenimiento"
+    },
+    {
+        "vuelo": "V1036",
+        "numero_de_registro": "N10036",
+        "modelo": "Airbus A320",
+        "capacidad": 150,
+        "aerolinea": "MegaJet",
+        "ciudad_destino": "Granada",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1037",
+        "numero_de_registro": "N10037",
+        "modelo": "Boeing 787",
+        "capacidad": 242,
+        "aerolinea": "AeroPlus",
+        "ciudad_destino": "Murcia",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1038",
+        "numero_de_registro": "N10038",
+        "modelo": "Boeing 777",
+        "capacidad": 396,
+        "aerolinea": "SkyAir",
+        "ciudad_destino": "Córdoba",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1039",
+        "numero_de_registro": "N10039",
+        "modelo": "Airbus A380",
+        "capacidad": 853,
+        "aerolinea": "GlobalWings",
+        "ciudad_destino": "Girona",
+        "estado": "Mantenimiento"
+    },
+    {
+        "vuelo": "V1040",
+        "numero_de_registro": "N10040",
+        "modelo": "Boeing 737",
+        "capacidad": 180,
+        "aerolinea": "MegaJet",
+        "ciudad_destino": "Madrid",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1041",
+        "numero_de_registro": "N10041",
+        "modelo": "Airbus A320",
+        "capacidad": 150,
+        "aerolinea": "AeroPlus",
+        "ciudad_destino": "Barcelona",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1042",
+        "numero_de_registro": "N10042",
+        "modelo": "Boeing 787",
+        "capacidad": 242,
+        "aerolinea": "SkyAir",
+        "ciudad_destino": "Valencia",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1043",
+        "numero_de_registro": "N10043",
+        "modelo": "Boeing 777",
+        "capacidad": 396,
+        "aerolinea": "GlobalWings",
+        "ciudad_destino": "Sevilla",
+        "estado": "Mantenimiento"
+    },
+    {
+        "vuelo": "V1044",
+        "numero_de_registro": "N10044",
+        "modelo": "Airbus A380",
+        "capacidad": 853,
+        "aerolinea": "MegaJet",
+        "ciudad_destino": "Bilbao",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1045",
+        "numero_de_registro": "N10045",
+        "modelo": "Boeing 737",
+        "capacidad": 180,
+        "aerolinea": "AeroPlus",
+        "ciudad_destino": "Zaragoza",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1046",
+        "numero_de_registro": "N10046",
+        "modelo": "Airbus A320",
+        "capacidad": 150,
+        "aerolinea": "SkyAir",
+        "ciudad_destino": "Granada",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1047",
+        "numero_de_registro": "N10047",
+        "modelo": "Boeing 787",
+        "capacidad": 242,
+        "aerolinea": "GlobalWings",
+        "ciudad_destino": "Murcia",
+        "estado": "Mantenimiento"
+    },
+    {
+        "vuelo": "V1048",
+        "numero_de_registro": "N10048",
+        "modelo": "Boeing 777",
+        "capacidad": 396,
+        "aerolinea": "MegaJet",
+        "ciudad_destino": "Córdoba",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1049",
+        "numero_de_registro": "N10049",
+        "modelo": "Airbus A380",
+        "capacidad": 853,
+        "aerolinea": "AeroPlus",
+        "ciudad_destino": "Girona",
+        "estado": "Disponible"
+    },
+    {
+        "vuelo": "V1050",
+        "numero_de_registro": "N10050",
+        "modelo": "Boeing 737",
+        "capacidad": 180,
+        "aerolinea": "SkyAir",
+        "ciudad_destino": "Madrid",
+        "estado": "Disponible"
+    }
+]
