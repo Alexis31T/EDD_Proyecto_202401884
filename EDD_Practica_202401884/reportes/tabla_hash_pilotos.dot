@@ -1,0 +1,36 @@
+digraph TablaHashPilotos {
+    rankdir=LR;
+    node [shape=record, fontname="Arial"];
+    edge [fontname="Arial"];
+
+    tabla [label="<f0> 0 | <f1> 1 | <f2> 2 | <f3> 3 | <f4> 4 | <f5> 5 | <f6> 6 | <f7> 7 | <f8> 8 | <f9> 9 | <f10> 10 | <f11> 11 | <f12> 12 | <f13> 13 | <f14> 14 | <f15> 15 | <f16> 16 | <f17> 17 | <f18> 18", fillcolor=lightgray, style=filled];
+
+    nodo_0_0 [label="{Chen Wei\nX01000123\nHoras: 235}", fillcolor=lightblue, style=filled];
+    tabla:f0 -> nodo_0_0;
+    nodo_1_0 [label="{Jane Smith\nX20000123\nHoras: 100}", fillcolor=lightblue, style=filled];
+    tabla:f1 -> nodo_1_0;
+    nodo_1_1 [label="{Hans Müller\nX02000123\nHoras: 305}", fillcolor=lightblue, style=filled];
+    nodo_1_0 -> nodo_1_1;
+    nodo_2_0 [label="{Marta Rodríguez\nX30000123\nHoras: 150}", fillcolor=lightblue, style=filled];
+    tabla:f2 -> nodo_2_0;
+    nodo_2_1 [label="{Priya Sharma\nX03000123\nHoras: 190}", fillcolor=lightblue, style=filled];
+    nodo_2_0 -> nodo_2_1;
+    nodo_3_0 [label="{Carlos García\nX40000123\nHoras: 640}", fillcolor=lightblue, style=filled];
+    tabla:f3 -> nodo_3_0;
+    nodo_3_1 [label="{Luca Rossi\nX04000123\nHoras: 120}", fillcolor=lightblue, style=filled];
+    nodo_3_0 -> nodo_3_1;
+    nodo_4_0 [label="{Aisha Ahmed\nX50000123\nHoras: 175}", fillcolor=lightblue, style=filled];
+    tabla:f4 -> nodo_4_0;
+    nodo_4_1 [label="{Emily Brown\nX05000123\nHoras: 40}", fillcolor=lightblue, style=filled];
+    nodo_4_0 -> nodo_4_1;
+    nodo_5_0 [label="{Miguel Pereira\nX60000123\nHoras: 80}", fillcolor=lightblue, style=filled];
+    tabla:f5 -> nodo_5_0;
+    nodo_5_1 [label="{Fatima Al-Sayed\nX06000123\nHoras: 365}", fillcolor=lightblue, style=filled];
+    nodo_5_0 -> nodo_5_1;
+    nodo_6_0 [label="{Isabella Santos\nX70000123\nHoras: 215}", fillcolor=lightblue, style=filled];
+    tabla:f6 -> nodo_6_0;
+    nodo_7_0 [label="{Olga Ivanova\nX80000123\nHoras: 295}", fillcolor=lightblue, style=filled];
+    tabla:f7 -> nodo_7_0;
+    nodo_8_0 [label="{Jürgen Schmidt\nX90000123\nHoras: 70}", fillcolor=lightblue, style=filled];
+    tabla:f8 -> nodo_8_0;
+}

@@ -1,0 +1,36 @@
+digraph ArbolBinarioPilotos {
+    node [shape=box, style=filled, fillcolor=lightblue, fontname="Arial"];
+    edge [fontname="Arial"];
+    rankdir=TB;
+
+    titulo [label=<<B>ÁRBOL BINARIO DE BÚSQUEDA - PILOTOS</B><BR/><FONT POINT-SIZE="10">Ordenado por Horas de Vuelo</FONT>>, shape=box, fillcolor="#2C3E50", fontcolor=white, style=filled];
+
+    nodo4 [label="Emily Brown\nHoras: 40\nID: X05000123"];
+    nodo3 -> nodo4 [label="Izq"];
+    nodo3 [label="Jürgen Schmidt\nHoras: 70\nID: X90000123"];
+    nodo2 -> nodo3 [label="Izq"];
+    nodo2 [label="Miguel Pereira\nHoras: 80\nID: X60000123"];
+    nodo1 -> nodo2 [label="Izq"];
+    nodo6 [label="Luca Rossi\nHoras: 120\nID: X04000123"];
+    nodo5 -> nodo6 [label="Izq"];
+    nodo9 [label="Priya Sharma\nHoras: 190\nID: X03000123"];
+    nodo8 -> nodo9 [label="Izq"];
+    nodo11 [label="Chen Wei\nHoras: 235\nID: X01000123"];
+    nodo10 -> nodo11 [label="Izq"];
+    nodo10 [label="Olga Ivanova\nHoras: 295\nID: X80000123"];
+    nodo8 -> nodo10 [label="Der"];
+    nodo8 [label="Isabella Santos\nHoras: 215\nID: X70000123"];
+    nodo7 -> nodo8 [label="Der"];
+    nodo7 [label="Aisha Ahmed\nHoras: 175\nID: X50000123"];
+    nodo5 -> nodo7 [label="Der"];
+    nodo5 [label="Marta Rodríguez\nHoras: 150\nID: X30000123"];
+    nodo1 -> nodo5 [label="Der"];
+    nodo1 [label="Jane Smith\nHoras: 100\nID: X20000123"];
+    nodo0 -> nodo1 [label="Izq"];
+    nodo13 [label="Fatima Al-Sayed\nHoras: 365\nID: X06000123"];
+    nodo12 -> nodo13 [label="Izq"];
+    nodo12 [label="Carlos García\nHoras: 640\nID: X40000123"];
+    nodo0 -> nodo12 [label="Der"];
+    nodo0 [label="Hans Müller\nHoras: 305\nID: X02000123"];
+    titulo -> nodo0 [style=invis];
+}

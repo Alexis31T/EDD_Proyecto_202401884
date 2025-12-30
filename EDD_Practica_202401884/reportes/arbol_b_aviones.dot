@@ -1,0 +1,15 @@
+digraph ArbolB {
+  node [shape=record];
+  label="Aviones Disponibles (Arbol B)";
+  labelloc=t;
+
+  n0 [label="70003|70006|70009"];
+  n1 [label="50013|70001|70002"];
+  n0 -> n1;
+  n2 [label="70004|70005"];
+  n0 -> n2;
+  n3 [label="70007|70008"];
+  n0 -> n3;
+  n4 [label="70010|70011|70012|70015"];
+  n0 -> n4;
+}

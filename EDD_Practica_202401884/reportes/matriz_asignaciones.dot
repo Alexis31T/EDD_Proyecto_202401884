@@ -1,0 +1,230 @@
+digraph TablaMatrizDispersa {
+  node [shape=plaintext, fontname="Arial"];
+
+  Tabla [
+    label=<
+      <table border="1" cellborder="1" cellspacing="0" cellpadding="6">
+        <tr>
+          <td bgcolor="#FFD700"><b>Ciudad \\ Vuelo</b></td>
+          <td bgcolor="#90EE90"><b>V700</b></td>
+          <td bgcolor="#90EE90"><b>V701</b></td>
+          <td bgcolor="#90EE90"><b>V702</b></td>
+          <td bgcolor="#90EE90"><b>V703</b></td>
+          <td bgcolor="#90EE90"><b>V704</b></td>
+          <td bgcolor="#90EE90"><b>V705</b></td>
+          <td bgcolor="#90EE90"><b>V706</b></td>
+          <td bgcolor="#90EE90"><b>V707</b></td>
+          <td bgcolor="#90EE90"><b>V708</b></td>
+          <td bgcolor="#90EE90"><b>V709</b></td>
+          <td bgcolor="#90EE90"><b>V710</b></td>
+          <td bgcolor="#90EE90"><b>V711</b></td>
+          <td bgcolor="#90EE90"><b>V712</b></td>
+          <td bgcolor="#90EE90"><b>V713</b></td>
+          <td bgcolor="#90EE90"><b>V714</b></td>
+          <td bgcolor="#90EE90"><b>V715</b></td>
+        </tr>
+
+        <tr>
+          <td bgcolor="#ADD8E6"><b>Barcelona</b></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td bgcolor="#FFFFE0">Luca Rossi</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td bgcolor="#FFFFE0">Marta Rodríguez</td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td bgcolor="#ADD8E6"><b>Bilbao</b></td>
+          <td bgcolor="#FFFFE0">Thabo Ndlovu</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td bgcolor="#FFFFE0">Miguel Pereira</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td bgcolor="#ADD8E6"><b>Córdoba</b></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td bgcolor="#FFFFE0">Chen Wei</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td bgcolor="#ADD8E6"><b>Girona</b></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td bgcolor="#FFFFE0">Hans Müller</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td bgcolor="#ADD8E6"><b>Granada</b></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td bgcolor="#FFFFE0">Olga Ivanova</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td bgcolor="#ADD8E6"><b>Madrid</b></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td bgcolor="#FFFFE0">Priya Sharma</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td bgcolor="#FFFFE0">Jane Smith</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td bgcolor="#ADD8E6"><b>Murcia</b></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td bgcolor="#FFFFE0">Jürgen Schmidt</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td bgcolor="#FFFFE0">John Doe</td>
+        </tr>
+
+        <tr>
+          <td bgcolor="#ADD8E6"><b>Sevilla</b></td>
+          <td></td>
+          <td></td>
+          <td bgcolor="#FFFFE0">Emily Brown</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td bgcolor="#FFFFE0">Carlos García</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td bgcolor="#ADD8E6"><b>Valencia</b></td>
+          <td></td>
+          <td bgcolor="#FFFFE0">Fatima Al-Sayed</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td bgcolor="#FFFFE0">Aisha Ahmed</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td bgcolor="#ADD8E6"><b>Zaragoza</b></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td bgcolor="#FFFFE0">Isabella Santos</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+      </table>
+    >
+  ];
+}
