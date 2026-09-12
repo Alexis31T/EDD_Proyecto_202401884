@@ -469,8 +469,6 @@ Este proyecto implementa un sistema completo y funcional de simulación de files
 - Interfaz web intuitiva y responsiva
 - Código modular y fácil de mantener
 
-El código está listo para producción y mantenimiento futuro.
-
 ---
 
 Alexis Trujillo - 202401884
