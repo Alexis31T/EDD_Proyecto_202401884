@@ -473,6 +473,4 @@ El código está listo para producción y mantenimiento futuro.
 
 ---
 
-**Fin del Manual Técnico**
-
 Alexis Trujillo - 202401884
