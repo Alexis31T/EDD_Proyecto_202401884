@@ -218,39 +218,37 @@ function validarComando(comando) {
 
 ### Flujo completo de un comando:
 
-```
 1. Usuario escribe comando en navegador
-   └─> "MKFILE -path=/archivo.txt"
+   -> "MKFILE -path=/archivo.txt"
 
 2. Frontend valida (validarComando)
-   └─> Verifica comando y parámetros
+   -> Verifica comando y parametros
 
-3. Frontend envía HTTP GET
-   └─> GET http://localhost:8080/MKFILE%20-path%3D%2Farchivo.txt
+3. Frontend envia HTTP GET
+   -> GET http://localhost:8080/MKFILE%20-path%3D%2Farchivo.txt
 
 4. Backend recibe en handleRequests()
-   └─> Logger.info("Comando recibido: MKFILE -path=/archivo.txt")
+   -> Logger.info("Comando recibido: MKFILE -path=/archivo.txt")
 
 5. parseUrl() extrae comando de URL
-   └─> "MKFILE -path=/archivo.txt"
+   -> "MKFILE -path=/archivo.txt"
 
 6. split() parsea en tokens
-   └─> ["MKFILE", "-path=/archivo.txt"]
+   -> ["MKFILE", "-path=/archivo.txt"]
 
 7. executeCommand() procesa
-   └─> Valida parámetros con validatePath()
-   └─> Ejecuta createVirtualFile()
-   └─> Logger.info("Ejecutando comando: MKFILE")
+   -> Valida parametros con validatePath()
+   -> Ejecuta createVirtualFile()
+   -> Logger.info("Ejecutando comando: MKFILE")
 
 8. Devuelve respuesta JSON
-   └─> {"status":"success","message":"Archivo creado: /archivo.txt"}
+   -> {"status":"success","message":"Archivo creado: /archivo.txt"}
 
 9. Frontend recibe respuesta
-   └─> Muestra [✓] Archivo creado: /archivo.txt
+   -> Muestra resultado en pantalla
 
 10. Logger persiste en server.log
-    └─> [2026-09-12 14:30:45] [INFO] Ejecutando comando: MKFILE
-```
+    -> [2026-09-12 14:30:45] [INFO] Ejecutando comando: MKFILE
 
 ---
 
