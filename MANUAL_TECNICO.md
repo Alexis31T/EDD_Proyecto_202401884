@@ -41,49 +41,36 @@ Este proyecto implementa un **simulador completo de filesystem EXT2** con:
 
 ### Características principales:
 
-✅ Creación y eliminación de discos virtuales (MKDISK, RMDISK)
-✅ Particionamiento (FDISK)
-✅ Montaje de particiones (MOUNT, UNMOUNT)
-✅ Creación de filesystems EXT2 (MKFS)
-✅ Gestión de usuarios (LOGIN, LOGOUT, MKGRP, RMGRP, MKUSR, RMUSR)
-✅ Operaciones de archivos (MKDIR, MKFILE, CAT, CHGRP)
-✅ 11 tipos de reportes en formato gráfico/texto
-✅ Interfaz web responsiva
-✅ Descarga de reportes generados
+- Creación y eliminación de discos virtuales (MKDISK, RMDISK)
+- Particionamiento (FDISK)
+- Montaje de particiones (MOUNT, UNMOUNT)
+- Creación de filesystems EXT2 (MKFS)
+- Gestión de usuarios (LOGIN, LOGOUT, MKGRP, RMGRP, MKUSR, RMUSR)
+- Operaciones de archivos (MKDIR, MKFILE, CAT, CHGRP)
+- 11 tipos de reportes en formato gráfico/texto
+- Interfaz web responsiva
+- Descarga de reportes generados
 
 ---
 
 ## ARQUITECTURA DEL SISTEMA
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                    NAVEGADOR (FRONTEND)                 │
-│  HTML/CSS/JavaScript - Interfaz web en puerto 8080      │
-└──────────────────────┬──────────────────────────────────┘
-                       │ HTTP/JSON
-                       │
-┌──────────────────────▼──────────────────────────────────┐
-│           SERVIDOR API (Backend C++ - API.cpp)          │
-│  - Procesa comandos                                      │
-│  - Valida parámetros                                     │
-│  - Logging de operaciones                                │
-│  - Manejo de excepciones                                 │
-└──────────────────────┬──────────────────────────────────┘
-                       │
-       ┌───────────────┼───────────────┐
-       │               │               │
-┌──────▼────┐ ┌────────▼─────┐ ┌─────▼──────┐
-│   Disco   │ │   Usuarios   │ │  Archivos  │
-│  Manager  │ │   Manager    │ │  Manager   │
-└────┬──────┘ └──────┬───────┘ └─────┬──────┘
-     │               │               │
-     └───────────────┼───────────────┘
-                     │
-              ┌──────▼──────┐
-              │  Filesystem │
-              │   EXT2      │
-              └─────────────┘
-```
+Navegador (Frontend)
+HTML/CSS/JavaScript - Interfaz web en puerto 8080
+           |
+         HTTP/JSON
+           |
+Servidor API (Backend C++ - API.cpp)
+- Procesa comandos
+- Valida parámetros
+- Logging de operaciones
+- Manejo de excepciones
+           |
+    Disco Manager
+    Usuarios Manager
+    Archivos Manager
+           |
+    Filesystem EXT2
 
 ---
 
@@ -474,13 +461,13 @@ tail -f backend/server.log  # Ver logs en tiempo real
 
 Este proyecto implementa un sistema completo y funcional de simulación de filesystem EXT2 con:
 
-- ✅ Arquitectura limpia separada entre backend (C++) y frontend (HTML/JS)
-- ✅ API REST bien estructurada y documentada
-- ✅ Validación robusta en cliente y servidor
-- ✅ Sistema de logging para debugging futuro
-- ✅ Manejo de excepciones para estabilidad
-- ✅ Interfaz web intuitiva y responsiva
-- ✅ Código modular y fácil de mantener
+- Arquitectura limpia separada entre backend (C++) y frontend (HTML/JS)
+- API REST bien estructurada y documentada
+- Validación robusta en cliente y servidor
+- Sistema de logging para debugging futuro
+- Manejo de excepciones para estabilidad
+- Interfaz web intuitiva y responsiva
+- Código modular y fácil de mantener
 
 El código está listo para producción y mantenimiento futuro.
 
